@@ -1,0 +1,83 @@
+.identityContainer{
+    display: flex;
+    flex-direction: row;
+}
+.identityPassContent{
+    height: 100vh;
+    background-color: #e40046;
+    width: 40%;
+    color: #fff;
+    padding: 14rem 2rem;
+    font-size: 29px;
+    line-height: 2rem;
+}
+.identity > h3{
+    margin: auto;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 29px;
+}
+.identity{
+    width:50%;
+    padding-top: 10rem;
+    margin-left: 20rem;
+}
+.identity > div{
+    margin-bottom: 3rem;
+}
+.identityBtn{
+    margin-left: 6rem;
+}
+
+
+
+
+
+
+
+
+/* .identityContainer{
+    background-color: #fff;
+    padding: 40px;
+    width: 30rem;
+    margin: auto;
+    margin-top:8rem;
+    box-shadow:0px 0px 7px 2px grey;
+}
+.identityform{
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    margin-top: 2.2rem;
+}
+.identityform > input{
+    margin-bottom: 1rem;
+    height: 40px;
+    border: 2px solid #111;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 18px;
+    margin-bottom: 1.6rem;
+}
+.forgoticon{
+    position: absolute;
+    top:1.4rem;
+    left: 1.2rem;
+    z-index: 7;
+    color: grey;
+}
+.identityBtn{
+    background-color: #e40046;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+}
+.identityError{
+    color: red;
+    margin-top: -18px;
+    margin-bottom: 10px;
+} */

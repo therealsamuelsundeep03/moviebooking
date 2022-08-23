@@ -1,0 +1,297 @@
+.indMovieContainer{
+    padding-left:10rem ;   
+    height: 100vh;
+}
+.darkindMovieContainer{
+    background-color: #121212;
+}
+
+/* movie details */
+.movieName > h3{
+ font-size: 30px;
+ margin-top: -1rem;
+ padding-top: 3rem;
+}
+.darkMovieName{
+    color: #fff;
+}
+.genre{
+    display: flex;
+    gap: 10px;
+}
+.darkMovieGenre{
+    color: #03DAC6;
+}
+.genre > div{
+    width: 100px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* movie details and lang */
+.moviedatesandlang{
+    margin-top: 30px;  
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    width: 99%;
+    margin-left: -10rem;
+    padding-left: 10rem;
+    box-shadow: 0 8px 2px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+.darkmoviedatesandlang{
+    background-color: #242526;
+    color:#fff
+}
+.movieDate{
+    display: flex;
+    gap: 40px;
+}
+.date{
+    cursor: pointer;
+}
+.moviedate{
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+.today{
+    background-color: #e40064;    
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.day{
+    font-size: 12px;
+}
+.date{
+    font-size: 19px;
+}
+.month{
+    font-size: 12px;
+}
+.selectedHallLangs{
+    right: -10rem;
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+}
+.selectedHallLangs > .Rule{
+    background-color:lightgrey;
+    height: 82px;
+    width: 1.4px;
+    position: absolute;
+    top: -2rem;
+}
+.ruleright{
+    left:8rem
+}
+.selectedHallLangs > .expand{
+    margin-left: 5rem;
+}
+.hallSelectedLang{
+    margin-left: 2rem;
+}
+.langhr{
+    background-color:#e44046;
+    height: 4px;
+    width: 8rem;
+    position: absolute;
+    bottom: -2rem;
+    left:0rem;
+}
+.hallLangs{
+    display: none;
+    position:absolute;
+    bottom: -5.5rem;
+    border:2px  solid lightgrey;
+    border-top: none;
+    background-color: #fff;
+    padding: 15px 15px 2px;
+    margin: auto;
+    width: 6rem;
+    border-radius: 5px;
+}
+.darkhallLangs{
+    display: none;
+    position:absolute;
+    bottom: -5.5rem;
+    border:2px  solid #242526;
+    border-top: none;
+    background-color: #242526;
+    padding: 15px 15px 2px;
+    margin: auto;
+    width: 6rem;
+    border-radius: 5px;
+}
+.hallLang{
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.hallLang:hover{
+    color: #e44046;
+}
+.showHallLang{
+    display: flex;
+    flex-direction: column;
+}
+
+/* halls */
+.halls{
+    background-color: #fff;
+    margin-top: 5rem;
+    padding: 3rem;
+    margin-right: 10rem;
+    overflow-y: hidden;
+    margin-bottom: 7rem;
+}
+.darkhalls{
+    background: #242526;
+    color:#fff
+}
+.hall{
+    display: flex;
+}
+.hallName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.halltimings{
+    margin-left: 20rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    column-gap: 60px;
+    row-gap: 20px;
+    flex-wrap:wrap;
+    margin-top:-3rem;
+}
+.halltime{
+    border: 1px solid gray;
+    padding: 7px;
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.defaultCursor{
+    cursor: default;
+    pointer-events: none;
+    background-color: #f5f5f5;
+}
+.darkdefaultCursor{
+    cursor: default;
+    pointer-events: none;
+    /* background-color: red; */
+    background-color: #ad004b;
+}
+.food{
+    margin-right: .5rem;
+}
+.halltime:hover{
+    background-color: #e40064;
+    color: #fff;
+    border: 2px solid #e40064;
+}
+.bb{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin:40px 0px;
+}
+.halladdl{
+    display: flex;
+    font-size: 12px;
+    margin-top: 1.2rem;
+    column-gap: 20px;
+}
+.green{
+    color: green;
+}
+.orange{
+    color: orange;
+}
+
+@media screen and (max-width:1145px){
+    .halltimings{
+        column-gap:14px;
+    }
+    .movieName{
+        margin-left: -6.4rem;
+    }
+}
+@media screen and (max-width:1054px){
+    .halltimings{
+        margin-top:-4rem;
+        margin-left: 12rem;
+    }
+}
+@media screen and (max-width:925px){
+    .halltimings{
+        margin-top:-5rem;
+        margin-left: 8rem;
+    }
+    .selectedHallLangs{
+        right: -2rem;
+        position: relative;
+        margin: auto;
+        cursor: pointer;
+    }
+    .hallName{
+        width: 90px;
+    }
+    .bb{
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width:861px){
+   .halltime{
+        padding:7px 0px;
+   }
+   .halls{
+    background-color: #fff;
+    margin-top: 5rem;
+    padding: 3rem;
+    margin-right: 0rem;
+    margin-left: -10rem;
+    margin-bottom: 20rem;
+    }
+    .darkhalls{
+        background-color: #242526;
+        margin-top: 5rem;
+        padding: 3rem;
+        margin-right: 0rem;
+        margin-left: -10rem;
+        margin-bottom: 20rem; 
+    }
+    .moviedatesandlang{
+        margin-left: -15rem;
+        width: 87vw;
+        overflow-y: hidden;  
+    }
+    .selectedHallLangs{
+        margin-left: 10rem;
+    }
+    .darkmoviedatesandlang{
+        overflow-y: hidden;
+    }
+}
+@media screen and (max-width:604px){
+    .selectedHallLangs{
+        margin-left: 5rem;
+    }
+}
+    @media screen and (max-width:518px){
+        .moviedatesandlang{
+            margin-left: -18rem;
+        }
+        .selectedHallLangs{
+            margin-left: 5rem;
+        }
+    }
+    

@@ -1,0 +1,111 @@
+.movieHall{
+    margin-top: -2.2rem;
+}
+
+/* hall header */
+.hallHeader{
+    background-color:#c2063e;
+    color: #fff;
+    height: 5rem;
+    margin: auto;
+    line-height: 1.3rem;
+}
+.darkHallHeader{
+    background-color: #242526;
+}
+.darkHallHeading{
+    color: #BB84F6;
+}
+.darkHallDetails{
+    color: #03DAC6;
+}
+.hallHeader > .showDet > h4{
+    padding: 1.3rem 0rem 0rem 1.3rem;
+    font-size: 25px;
+}
+.hallHeader >.showDet .showTimings{
+    margin-top: -1.3rem;
+    padding-left: 1.3rem;
+    font-size: 17px;
+    font-weight: 500;
+    word-spacing: 0.3rem;
+}
+
+.container{
+    perspective: 900px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.darkMovieHall{
+    background-color: #121212;
+    height: 100vh;
+    color:#37393a
+}
+.seat{
+    cursor: pointer;
+    margin-left: 26px;
+}
+.seat > span{
+    font-size:30px;
+}
+.seat:nth-of-type(2){
+    margin-right: 70px;
+}
+.seat:nth-last-of-type(2){
+    margin-left: 70px;
+}
+.seatRow{
+    display: flex;
+}
+.screen{
+    background-color: rgb(62, 58, 58);
+    height: 100px;
+    width: 90%;
+    margin-top: 2rem;
+    transform: rotateX(-48deg);
+    box-shadow: 0px 3px 10px rgba(255,255,255,0.7);
+}
+.green{
+    color:darkgreen;
+}
+.red{
+    color: #c2063e;
+    cursor: default;
+}
+
+/* pay info */
+.priceInfo{
+    position: relative;
+    bottom: 0rem;
+    background-color: #fff;
+    width: 100vw;
+    padding: 10px;
+    height: 4rem;
+    overflow-y: hidden;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.15);
+}
+.darkpriceInfo{
+    background-color: #242526;
+}
+.seatsCount{
+    margin: auto;
+    font-size: 18px;
+}
+.payBtn{
+    background-color: #e40046;
+    border:none;
+    outline: none;
+    color: #fff;
+    margin: auto;
+    margin-top: 0.6rem;
+    margin-left: 40%;
+    padding: 0px;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}

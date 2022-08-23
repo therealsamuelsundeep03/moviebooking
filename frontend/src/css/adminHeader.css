@@ -1,0 +1,21 @@
+.adminheader{
+    position: absolute; 
+    display: flex;
+    justify-content: space-between;  
+}
+.headerList{
+    padding-right: 3rem;
+    display: flex;
+    margin-top: 2rem;
+}
+.headerList > div{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+}
+.navSelect{
+    font-size: 18px;
+    font-weight: 600;
+}

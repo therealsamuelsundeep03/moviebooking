@@ -1,0 +1,70 @@
+.hallinfo{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f5f5f5;
+    position: fixed;
+    overflow-y: scroll;
+}
+.hallinfoform{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.hallinfo > form{
+    position: relative;
+}
+.movieFormInputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+.movieFormInputs > label{
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+.movieFormInputs > input{
+    width:340px;
+    height: 30px;
+    outline: none;
+    padding: 12px;
+    border: 1px solid #111;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.hallInfoBtn{
+    margin-top: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hallInfoBtn > button{
+    border: none;
+    outline: none;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    /* background-color: #4681f4; */
+    background-color: #c2063e;
+    padding: 10px;
+    color: #fff;
+    text-transform:uppercase;
+}
+.movieFormError{
+    color: red;
+}
+
+
+
+
+
+
+

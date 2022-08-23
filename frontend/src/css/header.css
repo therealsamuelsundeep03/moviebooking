@@ -1,0 +1,59 @@
+header{
+    height: 5rem;
+    top:0rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lightHeader{
+    background-color: #c2063e;
+    color: #fff;
+}
+.darkHeader{
+    background-color: #242526;
+    color: #BB86FC;
+}
+header > h3{
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 2.2rem;
+}
+.hamburger{
+    font-size: 35px;
+    margin-right: 4.2rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.showThemesNull{
+    display: none;
+}
+.showThemes{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    right: 2.2rem;
+    width: 6rem;
+}
+.showThemes > div{
+    padding: 1.5rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.lightdrop > div{
+    background-color: rgb(216, 216, 216);
+    color: #111;
+}
+.darkdrop > div{
+    background-color: #242526;
+    color: #FFF;
+}
+.lightdrop > div:hover{
+    background-color: #e40046;
+    color: #fff;
+} 
+.darkdrop > div:hover{
+    background-color: #BB86FC;
+    color: #Fff;
+}

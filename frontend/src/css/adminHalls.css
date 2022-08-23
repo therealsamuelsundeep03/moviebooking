@@ -1,0 +1,40 @@
+.adminHallDetails{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adminHallDetailsHall{
+    padding-top: 8rem;
+}
+.profit{
+    background-color: #fff;
+    width: 100vw;
+    margin-top: 5rem;
+    padding: 2rem;
+    padding-left: 6rem;
+    font-size: 20px;
+}
+.adminHallDetails > div{
+    background-color: #fff;
+    margin-top: 3rem;
+    border-radius: 6px;
+    border: 2px solid #e40046;
+    width: 40rem;
+}
+.adminHallDetails > div > div{
+    padding: 1rem;
+}
+.nil{
+    margin: auto;
+    padding: 8rem;
+    font-size: 30px;
+}
+.bookedCustDetails{
+    display: flex;
+    padding: 2rem;
+}
+.bookedCustDetails > div{
+    line-height: 2rem;
+    margin-right: 8rem;
+}

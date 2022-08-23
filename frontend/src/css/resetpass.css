@@ -1,0 +1,34 @@
+.resetPassContainer{
+    display: flex;
+    flex-direction: row;
+}
+.resetPassContent{
+    height: 100vh;
+    background-color: #e40046;
+    width: 40%;
+    color: #fff;
+    margin: auto;
+    padding: 20rem 2rem;
+}
+.resetPassContent > h3{
+    margin: auto;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 29px;
+}
+.resetPassword{
+    width:50%;
+    padding-top: 10rem;
+    margin-left: 20rem;
+}
+.resetTitle{
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    font-size: 29px;
+}
+.pass{
+    margin-bottom: 2.4rem;
+}
+.resetBtn{
+    margin-left: 6rem;
+}
